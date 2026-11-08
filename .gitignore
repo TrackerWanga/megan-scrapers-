@@ -1,0 +1,12 @@
+node_modules/
+.wrangler/
+.wrangler-state/
+.dev.vars
+.env
+.env.local
+*.log
+.DS_Store
+myclaw_guest_cookies.json
+myclaw_account_pool.json
+rewind_account_pool.json
+rewind_chat_sessions.json

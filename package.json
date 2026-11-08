@@ -1,0 +1,24 @@
+{
+  "name": "megan-scrapers",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node tests/run-all.mjs",
+    "test:yts": "node tests/test-yts.mjs",
+    "test:nyaa": "node tests/test-nyaa.mjs",
+    "test:net9ja": "node tests/test-net9ja.mjs",
+    "test:sportybet": "node tests/test-sportybet.mjs",
+    "test:deezer": "node tests/test-deezer.mjs",
+    "test:itunes": "node tests/test-itunes.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

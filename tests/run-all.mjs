@@ -1,0 +1,10 @@
+import dns from "node:dns";
+dns.setDefaultResultOrder("ipv4first");
+console.log("Running all scraper tests...\n");
+await import("./test-yts.mjs");
+await import("./test-nyaa.mjs");
+await import("./test-net9ja.mjs");
+await import("./test-sportybet.mjs");
+await import("./test-deezer.mjs");
+await import("./test-itunes.mjs");
+console.log("\n✅ All tests complete");
